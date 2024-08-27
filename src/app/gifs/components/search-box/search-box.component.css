@@ -1,0 +1,19 @@
+ .custom-input {
+     border: 3.4px solid #007bff;
+     /* Borde azul */
+     border-radius: 8px;
+     /* Bordes redondeados */
+     background-color: #f8f9fa;
+     /* Color de fondo claro */
+     padding: 10px 15px;
+     /* Espaciado interno */
+     color: #495057;
+     /* Color del texto */
+ }
+
+ .custom-input:focus {
+     border-color: #80bdff;
+     /* Borde cuando está enfocado */
+     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+     /* Sombra azul cuando está enfocado */
+ }
